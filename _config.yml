@@ -14,4 +14,9 @@ author:
 
 # Custom vars
 version:             1.1.0
-google_analytics_id: #UA-XXXX-Y
+
+plugins:
+  - jekyll-compress-images
+
+compress_images:
+  images_path: "public/images/**/*.{gif,png,jpg,jpeg}"
