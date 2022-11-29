@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.1"
-gem "jekyll-compress-images"
+gem "jekyll-compress-images", "~> 1.2"
