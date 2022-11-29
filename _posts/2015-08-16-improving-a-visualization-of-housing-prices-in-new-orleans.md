@@ -4,13 +4,13 @@ title: Improving a Visualization of Housing Prices in New Orleans
 category: articles
 tags: [visualization, python, leaflet, housing, nola]
 image:
-  feature: nola_housing_feature.png
+  feature: nola_housing_feature.jpg
 ---
 
 Last week I read an article in the New Orleans Advocate [on the increase of the price of housing since Katrina](http://www.theneworleansadvocate.com/news/business/13152497-123/home-prices-continue-climbing-in).
 The article was fine, but they linked a visualization of the data that I really had trouble interpreting.
 
-<img alt="New Orleans Advocate Visualization" src="/public/images/advocate_housing_viz.png">
+<img alt="New Orleans Advocate Visualization" src="/public/images/advocate_housing_viz.jpg">
 
 The idea is clear enough, the price per square foot values are displayed
 hovering over each respective zip code. The article was titled
@@ -58,7 +58,7 @@ df['pct_change_2005_2015'] = pct_change('2005', '2015')
 I was then able to sort on that column and I found that the biggest decrease was **70058** at **-21.9%** and the biggest increase was **70117** at **108.0%**.
 I also wanted to know how the data was distributed over this range so I created a distplot
 
-<img alt="Distribution of percentage change of value" src="/public/images/housing_distplot.png">
+<img alt="Distribution of percentage change of value" src="/public/images/housing_distplot.jpg">
 
 As you can see, most of the data is distributed around the -20% to 25% range. (The mean being 11.3% and the median being 3.9%) I also used this opportunity to apply a function to calculate the [Freedman Diaconis size](https://en.wikipedia.org/wiki/Freedman%E2%80%93Diaconis_rule) which was *10*. Both of these details will be important for later on.
 

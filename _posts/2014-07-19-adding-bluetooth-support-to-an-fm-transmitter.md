@@ -27,5 +27,5 @@ Turns out it handled it just fine. Next thing I did was freeform solder the circ
 
 Now when I am at home, I can just choose my transmitter in my bluetooth options and it will route all the audio to all the speakers in my house.
 
-<img alt="Bluetooth setting" src="/public/images/bluetooth_setting.png">
+<img alt="Bluetooth setting" src="/public/images/bluetooth_setting.jpg">
 

@@ -49,11 +49,11 @@ The end goal was to analyze the data to create a map and some statistics. First 
 
 Here is the breakdown per status of the *171* lights I recorded:
 
-<img alt="crosswalk lights status counts" src="/public/images/crosswalk_bar_chart.png">
+<img alt="crosswalk lights status counts" src="/public/images/crosswalk_bar_chart.jpg">
 
 So I counted **90** (65 + 25) broken overall (**59** on the parts of **Canal** I checked). And here is a pie chart of the percentages:
 
-<img alt="crosswalk lights pie chart percentages" src="/public/images/crosswalk_pie_chart.png">
+<img alt="crosswalk lights pie chart percentages" src="/public/images/crosswalk_pie_chart.jpg">
 
 As you can see, **over half** of the lights are broken or unusable. Here is an interactive map of the raw data:
 

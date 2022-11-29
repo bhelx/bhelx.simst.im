@@ -20,7 +20,7 @@ We aren't going to talk about mining and the bitcoin network. It's not really im
 
 The most important primitive is the private key. All other keys are derived from the private key. Here is a diagram explaining the process for creating keys:
 
-<img alt="bitcoin keys" src="/public/images/bitcoinkeys.png">
+<img alt="bitcoin keys" src="/public/images/bitcoinkeys.jpg">
 
 The private key is, in essence, just a really big random number (256-bits) which can easily be generated offline with a sufficient source of randomness. Because of that, the public key and the address can also be generated offline. Of course, due to the laws of public key cryptography, it is impossible* to derive the private key from the public key or the address. Bitcoins are tied directly to the private key. The owner of the private key cotrols the bitcoins. Because of this, secrecy and security of the private key is of utmost importance. In general, the only thing that you should ever willingly expose is the Address. You don't even want to reveal your public key until you have to.
 

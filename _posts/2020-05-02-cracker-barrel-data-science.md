@@ -31,7 +31,7 @@ move. Perhaps there are purely analytical answers to these questions, but I'm pe
 For some reason, I got the itch to start this while I was in a cabin in Mississippi without my computer.
 So the first thing I did was write down a notation and a set of legal moves on a bookmark and I snapped a pic of it with my phone.
 
-<img alt="Ignoramus Notation" src="/public/images/ignoramus-notation.png">
+<img alt="Ignoramus Notation" src="/public/images/ignoramus-notation.jpg">
 
 I chose a notation similar to chess (rank and file). The common board orientation will
 be with one of the tips of the triangle pointing at you. So each row will be labeled going up (A, B, C, D, E)
@@ -321,7 +321,7 @@ tees = np.array(list(map(remaining_tees, sess.log)))
 plt.hist(tees, bins=np.arange(tees.min(), tees.max()+1))
 {% endhighlight %}
 
-<img alt="Ignoramus Game Score Distribution" src="/public/images/ignoramus-dist.png">
+<img alt="Ignoramus Game Score Distribution" src="/public/images/ignoramus-dist.jpg">
 
 In number of tees remaining:
 

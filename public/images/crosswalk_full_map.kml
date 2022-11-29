@@ -2,9 +2,9 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
   <name>full_crosswalk_map.kml</name>
-  <Style id="marker_working"><IconStyle><scale>1.0</scale><Icon><href>http://google.com/mapfiles/ms/micons/green.png</href></Icon></IconStyle></Style>
-  <Style id="marker_broken"><IconStyle><scale>1.0</scale><Icon><href>http://google.com/mapfiles/ms/micons/yellow.png</href></Icon></IconStyle></Style>
-  <Style id="marker_unusable"><IconStyle><scale>1.0</scale><Icon><href>http://google.com/mapfiles/ms/micons/red.png</href></Icon></IconStyle></Style>
+  <Style id="marker_working"><IconStyle><scale>1.0</scale><Icon><href>http://google.com/mapfiles/ms/micons/green.jpg</href></Icon></IconStyle></Style>
+  <Style id="marker_broken"><IconStyle><scale>1.0</scale><Icon><href>http://google.com/mapfiles/ms/micons/yellow.jpg</href></Icon></IconStyle></Style>
+  <Style id="marker_unusable"><IconStyle><scale>1.0</scale><Icon><href>http://google.com/mapfiles/ms/micons/red.jpg</href></Icon></IconStyle></Style>
 	<Style id="sn_ylw-pushpin">
 		<LineStyle>
 			<color>ffff0b00</color>

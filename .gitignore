@@ -41,5 +41,3 @@ validation-report.json
 # Folders to ignore
 node_modules
 bower_components
-
-_compress_images_cache.yml
