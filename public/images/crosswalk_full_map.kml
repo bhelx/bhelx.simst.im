@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+  <name>full_crosswalk_map.kml</name>
+  <Style id="marker_working"><IconStyle><scale>1.0</scale><Icon><href>http://google.com/mapfiles/ms/micons/green.png</href></Icon></IconStyle></Style>
+  <Style id="marker_broken"><IconStyle><scale>1.0</scale><Icon><href>http://google.com/mapfiles/ms/micons/yellow.png</href></Icon></IconStyle></Style>
+  <Style id="marker_unusable"><IconStyle><scale>1.0</scale><Icon><href>http://google.com/mapfiles/ms/micons/red.png</href></Icon></IconStyle></Style>
+	<Style id="sn_ylw-pushpin">
+		<LineStyle>
+			<color>ffff0b00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff1900</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<LineStyle>
+			<color>ffff0b00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>80ff1900</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Crosswalk Searched Zone</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-90.07702618350453,29.94713767049092,0 -90.07301162733781,29.9462329529947,0 -90.07328456624637,29.94520728093251,0 -90.07358253258781,29.94420706298688,0 -90.07443147145021,29.94300953777488,0 -90.07287437766662,29.94224514382101,0 -90.07172772213302,29.94166684322771,0 -90.0701075377529,29.94105761279194,0 -90.0692619895807,29.94082403378884,0 -90.06788567962965,29.94051867750619,0 -90.06711772855412,29.94060166778693,0 -90.06702547979557,29.9399387661107,0 -90.06431928500329,29.94023590725751,0 -90.06453304089061,29.94805176374476,0 -90.06406657335609,29.94794957428073,0 -90.06395453747659,29.94820780497984,0 -90.06380545194443,29.94982266826861,0 -90.072707669767,29.95589234835656,0 -90.07400490652238,29.95445901074791,0 -90.07410806314132,29.95439053773415,0 -90.07446768109634,29.95451896498479,0 -90.07507522354591,29.95482951116493,0 -90.07702618350453,29.94713767049092,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+  </Placemark>
+
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e8a5e1bfdac0800e2ccfc">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06994095281755,29.942718290985464</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e89b21bfdac0800e2ccfb">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06991949514543,29.942785692784643</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e89651bfdac0800e2ccfa">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06998923257981,29.94279963797878</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e87321bfdac0800e2ccf9">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06447192863618,29.944319652417995</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e872c1bfdac0800e2ccf8">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0647106452385,29.94438472897026</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e86e11bfdac0800e2ccf7">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0647106452385,29.944296410781877</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e86d61bfdac0800e2ccf6">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06447729305421,29.944254575823187</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e86911bfdac0800e2ccf5">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0644746108452,29.944352190699444</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e86811bfdac0800e2ccf4">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06474283174668,29.944282465797606</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e863a1bfdac0800e2ccf3">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06474283174668,29.944394025617093</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e86331bfdac0800e2ccf2">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06446924642717,29.944212740846865</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e80af1bfdac0800e2ccf1">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07543948129808,29.953513617598343</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e80781bfdac0800e2ccf0">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0751927180687,29.95346249071882</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e7c931bfdac0800e2ccef">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.070021419088,29.95149176187013</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e7c6f1bfdac0800e2ccee">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07004824117814,29.951481303888816</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e7c5f1bfdac0800e2cced">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0700227601925,29.951473169902577</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7c4d1bfdac0800e2ccec">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07004421786462,29.95151151583189</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e7c2f1bfdac0800e2cceb">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07001471356546,29.951496409861523</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7c241bfdac0800e2ccea">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07004958228265,29.95151035383425</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e7c0c1bfdac0800e2cce9">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07005360559617,29.951480141890823</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e7bf21bfdac0800e2cce8">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07002678350602,29.951466197913845</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7b821bfdac0800e2cce7">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07123109535371,29.95194319701589</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e7b621bfdac0800e2cce6">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0712210370699,29.951923443139904</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7b381bfdac0800e2cce5">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07123780087625,29.9519304150966</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7b321bfdac0800e2cce4">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07123377756272,29.95194029203439</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7af31bfdac0800e2cce3">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07123780087625,29.951926348121916</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7ae71bfdac0800e2cce2">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0712109787861,29.951944359008465</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7acb1bfdac0800e2cce1">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07120829657708,29.951912404207505</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7a951bfdac0800e2cce0">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07244345382844,29.95238068626331</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7a8c1bfdac0800e2ccdf">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0723817630211,29.952403926010103</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e7a821bfdac0800e2ccde">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07238980964814,29.95235279855996</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e79711bfdac0800e2ccdd">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07534292177354,29.953498511932217</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e795f1bfdac0800e2ccdc">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0753724260727,29.953433441343797</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e79501bfdac0800e2ccdb">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07509347633516,29.95339625813131</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e794b1bfdac0800e2ccda">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07506128982698,29.953517103521108</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e78f81bfdac0800e2ccd9">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07517930702363,29.953568230372568</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e78c81bfdac0800e2ccd8">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07540461258088,29.9536565403268</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e782d1bfdac0800e2ccd7">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07400986389314,29.954330482130963</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e781d1bfdac0800e2ccd6">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07392403320466,29.954074849570603</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e77fa1bfdac0800e2ccd5">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07401522831117,29.95415386334127</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e77d11bfdac0800e2ccd4">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07389721111451,29.95400977935937</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e77bd1bfdac0800e2ccd3">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07387038902436,29.954042314470318</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e77ad1bfdac0800e2ccd2">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07402595714723,29.95445132638525</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e73be1bfdac0800e2ccd1">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07317886670558,29.95378546842021</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e73921bfdac0800e2ccd0">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07318959554163,29.953781401521425</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e73891bfdac0800e2cccf">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07320702990023,29.95379069728984</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e73731bfdac0800e2ccce">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07319227775065,29.953809288824075</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e73541bfdac0800e2cccd">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0731828900191,29.953812774736356</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e73471bfdac0800e2cccc">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07318154891459,29.953777915608022</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e730a1bfdac0800e2cccb">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.072085866532,29.953291048505168</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e73001bfdac0800e2ccca">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07212744077174,29.953291048505168</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e72f11bfdac0800e2ccc9">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07211671193568,29.953318935945347</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e72e31bfdac0800e2ccc8">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07213951071225,29.95328523862079</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e72da1bfdac0800e2ccc7">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07206440885983,29.953296858389166</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e72cc1bfdac0800e2ccc6">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07210195978604,29.9533270697806</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e727a1bfdac0800e2ccc5">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07095531543217,29.95272051624101</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e72411bfdac0800e2ccc4">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07090971787892,29.952728650125216</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e722d1bfdac0800e2ccc3">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07092044671498,29.952699600535723</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e72151bfdac0800e2ccc2">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0708882602068,29.95272400219148</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e72021bfdac0800e2ccc1">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07097409089528,29.9527054104543</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e71c21bfdac0800e2ccc0">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06979928334675,29.952180192442984</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e71a91bfdac0800e2ccbf">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06978587230168,29.952203432236672</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e71911bfdac0800e2ccbe">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06982342322789,29.952189488361117</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e71441bfdac0800e2ccbd">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06978050788365,29.952161600604178</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e71021bfdac0800e2ccbc">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0697536857935,29.952205756215765</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e70f21bfdac0800e2ccbb">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06983951648198,29.952182516422614</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6f481bfdac0800e2ccba">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06585911830382,29.950706778435045</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6f3d1bfdac0800e2ccb9">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06598786433653,29.950876431317894</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6f221bfdac0800e2ccb8">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06616891344504,29.95100541379543</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6ef31bfdac0800e2ccb7">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.066160866818,29.951051893926497</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6eeb1bfdac0800e2ccb6">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06607771833853,29.951307534259037</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6ed01bfdac0800e2ccb5">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06613538583235,29.950986821736937</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6ec71bfdac0800e2ccb4">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06595299561934,29.950849705198046</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6e7d1bfdac0800e2ccb3">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06708220561461,29.95197335804001</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6e661bfdac0800e2ccb2">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06723375042395,29.951800221045968</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6e5b1bfdac0800e2ccb1">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06727666576819,29.951792087085806</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e6e511bfdac0800e2ccb0">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06725118478255,29.951768847195993</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6e381bfdac0800e2ccaf">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06711975654082,29.95200124584977</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6e311bfdac0800e2ccae">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0672592314096,29.951817650958354</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6dc91bfdac0800e2ccad">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06829322298483,29.952493929199385</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e6dc21bfdac0800e2ccac">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0682503076406,29.952497415157772</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e6dbf1bfdac0800e2ccab">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0680893750997,29.95266590300133</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6d801bfdac0800e2ccaa">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06827712973075,29.952522978848975</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6d751bfdac0800e2cca9">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06812156160788,29.95268914268148</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6d581bfdac0800e2cca8">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06827847083525,29.952476499405545</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e6d1b1bfdac0800e2cca7">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06896913965659,29.95325967512566</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6d151bfdac0800e2cca6">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06913141330199,29.9530888643299</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6d0c1bfdac0800e2cca5">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0690066905828,29.95327942873616</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6cf01bfdac0800e2cca4">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06915555318312,29.953105132037376</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6ce01bfdac0800e2cca3">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0691501887651,29.953062138804714</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e6cca1bfdac0800e2cca2">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07008091529326,29.95369890153867</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6c7d1bfdac0800e2cca1">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07002995332198,29.953709359286734</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6c661bfdac0800e2cca0">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06990388949828,29.953882492956385</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6c5b1bfdac0800e2cc9f">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0700601281734,29.953719236047835</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6c4d1bfdac0800e2cc9e">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07005543430762,29.953695996608463</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6bf81bfdac0800e2cc9d">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07074945589028,29.954477419778243</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6be91bfdac0800e2cc9c">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07093721052132,29.95430312517962</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6bc91bfdac0800e2cc9b">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07078298350297,29.95450182099768</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e6bc01bfdac0800e2cc9a">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07096403261147,29.954278723911436</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6bac1bfdac0800e2cc99">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07096537371598,29.954329850371252</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e6b501bfdac0800e2cc98">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0719068290802,29.95492826038933</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6b4b1bfdac0800e2cc97">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07185854931794,29.954931746262375</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6b181bfdac0800e2cc96">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07188268919907,29.95490966906435</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6b0e1bfdac0800e2cc95">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07170432229958,29.955110687581364</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e6b071bfdac0800e2cc94">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07187330146752,29.95495614737031</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e6ab81bfdac0800e2cc93">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.072781229219,29.955502265837726</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6a9d1bfdac0800e2cc92">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07292740961032,29.95559638382375</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6a8d1bfdac0800e2cc91">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07288449426608,29.955568497022355</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6a701bfdac0800e2cc90">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07274770160632,29.955831097425374</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6a561bfdac0800e2cc8f">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07277452369647,29.955777647842055</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6a471bfdac0800e2cc8e">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0725814046474,29.955700959259275</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e6a3b1bfdac0800e2cc8d">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07276111265139,29.955501103886753</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e6a311bfdac0800e2cc8c">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07257604022936,29.955712578745292</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e6a211bfdac0800e2cc8b">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07292740961032,29.95559638382375</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e69e91bfdac0800e2cc8a">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07261627336459,29.955745113299006</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e69cd1bfdac0800e2cc89">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07260554452853,29.9556568051999</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e69b71bfdac0800e2cc88">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07273160835223,29.95582644963667</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e696e1bfdac0800e2cc87">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07191889902072,29.954931746262424</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e69601bfdac0800e2cc86">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07165604253726,29.95508280064379</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e69541bfdac0800e2cc85">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0717365088077,29.955073504996186</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e69441bfdac0800e2cc84">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07169359346346,29.95511301149252</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e69131bfdac0800e2cc83">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07187866588549,29.954880620112114</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e69051bfdac0800e2cc82">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07168554683642,29.955038646309898</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e68fc1bfdac0800e2cc81">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0716453137012,29.95508512455556</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e68b01bfdac0800e2cc80">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07077091356234,29.954511116698768</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e68911bfdac0800e2cc7f">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07100158353762,29.954301963214654</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e68771bfdac0800e2cc7e">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0709613504024,29.954260132465006</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e68671bfdac0800e2cc7d">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07074945589022,29.954441398919617</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e681b1bfdac0800e2cc7c">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0699340643497,29.95386041552544</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e680b1bfdac0800e2cc7b">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07005476375537,29.953672176177523</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e67f81bfdac0800e2cc7a">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.07010572572665,29.95369541562247</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e67d11bfdac0800e2cc79">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0698804201694,29.95381161276574</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e67c21bfdac0800e2cc78">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06988846679644,29.953892950685237</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e67821bfdac0800e2cc77">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06902479549365,29.953246893375653</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e676f1bfdac0800e2cc76">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06898188014941,29.953212034048956</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e676a1bfdac0800e2cc75">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06913744827227,29.953051680988636</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e67551bfdac0800e2cc74">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06919109245257,29.9530772445373</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e672d1bfdac0800e2cc73">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06898724456744,29.953286400597843</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e66e61bfdac0800e2cc72">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06830596347766,29.952489281254735</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e66d51bfdac0800e2cc71">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06806992908434,29.952661255064744</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e66b21bfdac0800e2cc70">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06826573034243,29.952454421662395</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e668c1bfdac0800e2cc6f">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06809943338351,29.952617099655416</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e66801bfdac0800e2cc6e">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06810748001055,29.952698438552105</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e662f1bfdac0800e2cc6d">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06715261360125,29.951954766162554</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e66291bfdac0800e2cc6c">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06705605407672,29.9519710340556</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e66071bfdac0800e2cc6b">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06719552894549,29.951815326970305</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e65f81bfdac0800e2cc6a">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06709896942095,29.952012865768292</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e65ef1bfdac0800e2cc69">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06724112649874,29.951743283311004</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_broken</styleUrl>
+  <Point id="536e65961bfdac0800e2cc68">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06618433614688,29.951011223813087</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e65771bfdac0800e2cc67">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06610655208544,29.951269188251153</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e656d1bfdac0800e2cc66">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06592952629046,29.951222708221632</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e653d1bfdac0800e2cc65">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06606631895022,29.951317992258723</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e652e1bfdac0800e2cc64">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06590270420031,29.951206440206203</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e65181bfdac0800e2cc63">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06591075082736,29.950795090930818</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e650e1bfdac0800e2cc62">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06587856431918,29.951097212033464</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e64731bfdac0800e2cc61">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06427728553723,29.95009556085465</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e64681bfdac0800e2cc60">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06432020088147,29.950130421273958</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e64481bfdac0800e2cc5f">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06433629413556,29.95013971738371</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e64381bfdac0800e2cc5e">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06418877263974,29.949772520387683</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e64281bfdac0800e2cc5d">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06411635299634,29.949695827173024</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e63e61bfdac0800e2cc5c">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06396883150052,29.949714419472908</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e63c51bfdac0800e2cc5b">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0639473738284,29.949716743510166</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e638b1bfdac0800e2cc5a">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06379717012356,29.94983294530303</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e63831bfdac0800e2cc59">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06393664499234,29.949819001095044</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e63641bfdac0800e2cc58">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06406539102505,29.949707447360872</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e63481bfdac0800e2cc57">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06395810266446,29.949805056885122</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_unusable</styleUrl>
+  <Point id="536e63351bfdac0800e2cc56">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06425851007413,29.949698151210715</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e62671bfdac0800e2cc55">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06458037515591,29.9482061078464</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e62521bfdac0800e2cc54">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06453745981167,29.948378089064125</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e62061bfdac0800e2cc53">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.0647949518771,29.94842921855799</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <styleUrl>#marker_working</styleUrl>
+  <Point id="536e61d81bfdac0800e2cc52">
+    <altitudeMode>clampToGround</altitudeMode>
+    <coordinates>-90.06483250280331,29.948261885571217</coordinates>
+  </Point>
+</Placemark>
+
+
+
+</Document>
+</kml>
