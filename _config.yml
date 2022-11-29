@@ -4,7 +4,7 @@ tagline:             ''
 description:         'Blog of Benjamin Eckel'
 url:                 https://bhelx.simst.im
 baseurl:             ''
-permalink:           pretty
+permalink:           none
 
 # About/contact
 author:
