@@ -34,7 +34,7 @@ With that tiny bit if knowledge, I spent the entire night making little console 
 
 I felt similarly when I first hand built a TTL computer. I made a toolchain and emulator to go along with it.
 I believe doing this re-invigorated my passion for computers.
-These momements always come with a feeling of fun and an uncontrollable outpouring of ideas.
+These moments always come with a feeling of fun and an uncontrollable outpouring of ideas.
 Everytime I get this feeling I've been rewarded for following it.
 
 I feel similar feelings about WebAssembly.
