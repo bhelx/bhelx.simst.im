@@ -12,4 +12,4 @@ Links:
 * [Twitter](https://twitter.com/bhelx)
 * [LinkedIn](https://www.linkedin.com/in/benjamin-eckel-b025831a3/)
 
-This site is created with [Jekyll](https://jekyllrb.com/) and the theme is [Lanyon](https://lanyon.getpoole.com/) made by [@mdo](https://twitter.com/mdo).
+This site is created with [Jekyll](https://jekyllrb.com/) and the theme is a mix of [Lanyon](https://lanyon.getpoole.com/) and [Tufte.css](https://github.com/edwardtufte/tufte-css/).

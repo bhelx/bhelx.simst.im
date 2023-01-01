@@ -20,3 +20,5 @@ plugins:
 
 compress_images:
   images_path: "public/images/**/*.{gif,png,jpg,jpeg}"
+
+
