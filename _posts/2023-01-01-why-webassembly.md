@@ -30,7 +30,7 @@ One of the big accomplishments of Wasm will be to enhance security of existing p
 A few times in my life I've encountered an idea so simple but so powerful that it changed the way I think.
 I remember feeling this way the first time I learned to program.
 I learned how to do loops and print text to the screen.
-With that tiny bit if knowledge, I spent the entire night making little console games that animated text.
+With that tiny bit of knowledge, I spent the entire night making little console games that animated text.
 
 I felt similarly when I first hand built a TTL computer. I made a toolchain and emulator to go along with it.
 I believe doing this re-invigorated my passion for computers.
