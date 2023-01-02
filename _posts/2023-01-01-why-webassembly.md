@@ -16,7 +16,7 @@ And why is this problem well suited for me?
 ## Why we need Wasm
 
 There are a few things that make Wasm different than say, the Java bytecode, but I want to focus on what I think is the most compelling: Sandboxing.
-By default, Wasm programs have no capabilities unless explicitlyexplicitly  granted to them by the host.
+By default, Wasm programs have no capabilities unless explicitly granted to them by the host.
 The program's memory access is contained to a contiguous block of linear memory.
 
 It can give you a similar level of isolation as an operating system with the lightweight nature of a thread.
