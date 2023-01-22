@@ -144,6 +144,11 @@ a:visited {
     text-shadow: unset;
 }
 
+span.newthought {
+    font-variant: small-caps;
+    font-size: 1.2em;
+}
+
 body > a:link, .tufte-underline, .hover-tufte-underline:hover {
     text-decoration: none;
     background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
