@@ -27,5 +27,5 @@ I don't mean to criticise this solution. I think it's a fairly elegant solution 
 
 The only way I can see to solve this is to write a native Erlang or Elixir Wasm runtime. From a native runtime you'd be able to interop very deeply with Erlang and calling synchronous host functions wouldn't be a problem. You may even be able to write some kind of Wasm to BEAM Bytecode JIT to make it relatively fast.
 
-I don't intend to pick up this project, but if you do, please reach out to me!
+I don't intend to pick up this project, but if you do, please reach out to me! Also, please reach out if you think I'm wrong or know of some other ways around this problem.
 
