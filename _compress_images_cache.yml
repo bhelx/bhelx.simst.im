@@ -71,3 +71,7 @@ public/images/ignoramus-dist.jpg: ignoramus-dist.jpg
 public/images/accessibility-amenity-all.jpg: accessibility-amenity-all.jpg
 public/images/compute-to-data.png: compute-to-data.png
 public/images/data-to-compute.png: data-to-compute.png
+public/images/deep-and-rem.png: deep-and-rem.png
+public/images/percent-rem.png: percent-rem.png
+public/images/percent-deep.png: percent-deep.png
+public/images/mins-asleep.png: mins-asleep.png
