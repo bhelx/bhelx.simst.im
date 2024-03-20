@@ -5,6 +5,10 @@ title: Talks
 
 This page houses a collection of public talks I've done recently:
 
+## Ruby on Rails Podcast - Episode 511: WebAssembly with Benjamin Eckel
+
+<iframe src="https://player.fireside.fm/v2/3OC19MC9+lDfQP443?theme=dark" width="740" height="200" frameborder="0" scrolling="no"></iframe>
+
 ## Wasm Plug-in Systems for Frontend Devs: FrontEnd Party 11-14-2023
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/24cbovpnUKs?si=nMMKJZc-9PLPcDBf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
