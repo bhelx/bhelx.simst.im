@@ -5,6 +5,11 @@ title: Talks
 
 This page houses a collection of public talks I've done recently:
 
+## Chicory: Creating a Language-Native Wasm Runtime by Benjamin Eckel & Andrea Peruffo @ Wasm I/O 202
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jrnMhWiV23w?si=qaxE6ZKka2RX5qM3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## Ruby on Rails Podcast - Episode 511: WebAssembly with Benjamin Eckel
 
 <iframe src="https://player.fireside.fm/v2/3OC19MC9+lDfQP443?theme=dark" width="740" height="200" frameborder="0" scrolling="no"></iframe>
