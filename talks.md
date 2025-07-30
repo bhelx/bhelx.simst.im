@@ -5,6 +5,10 @@ title: Talks
 
 This page houses a collection of public talks I've done recently:
 
+##  The State of MCP observability: Observable.tools — Alex Volkov and Benjamin Eckel, W&B and Dylibso
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lcqat4iP_lE?si=RGTXtayo8ocUVC3j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Chicory: Creating a Language-Native Wasm Runtime by Benjamin Eckel & Andrea Peruffo @ Wasm I/O 202
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jrnMhWiV23w?si=qaxE6ZKka2RX5qM3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
