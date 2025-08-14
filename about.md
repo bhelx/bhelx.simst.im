@@ -5,6 +5,8 @@ title: About
 
 My name is Benjamin Eckel. This blog is mostly about technology, programming, and sometimes New Orleans (where I live).
 
+If you're curious about what I've been up to, you might find interest in the [talks](/talks.html) page.
+
 Links:
 
 * [Email](mailto:bhelx@simst.im)
